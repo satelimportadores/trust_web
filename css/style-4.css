@@ -364,13 +364,13 @@ sup {
   margin-top: 10px;
 }
 .item-title .separator {
-  background: #FF1D4D;
+  background: #ffffff;
   height: 3px;
   width: 100px;
   margin: 20px 0 30px;
 }
 .item-title .separator:before {
-  background: #FF1D4D;
+  background: #ffffff;
   content: "";
   height: 10px;
   margin: -4px auto auto 0;
@@ -383,7 +383,7 @@ sup {
   width: 10px;
 }
 .item-title .separator:after {
-  background: #FF1D4D;
+  background: #ffffff;
   content: "";
   height: 10px;
   margin: -4px auto auto 0;
@@ -401,7 +401,7 @@ sup {
 }
 
 a.action {
-  background-color: #FF1D4D;
+  background-color: #3A0805;
   opacity: 0.9;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -422,12 +422,12 @@ a.action {
   letter-spacing: 2px;
 }
 a.action:hover {
-  border-color: #ff5075;
+  border-color: #B0AFAF;
   color: #FFFFFF;
   opacity: 1;
 }
 a.action:active, a.action:focus {
-  border-color: #e90031;
+  border-color: #B0AFAF;
   color: #FFFFFF;
   box-shadow: none;
   opacity: 1;
@@ -547,19 +547,19 @@ p.copyright {
 }
 
 #left1 {
-  background: #FF1D4D;
+  background: #3A0805;
 }
 
 #left2 {
-  background: #2B2D35;
+  background: #B0AFAF;
 }
 
 #left3 {
-  background: #FF1D4D;
+  background: #3A0805;
 }
 
 #left4 {
-  background: #2B2D35;
+  background: #B0AFAF;
 }
 
 /* #left5 {
@@ -575,19 +575,19 @@ p.copyright {
 //      background: $shark;
 } */
 #right1 {
-  background: #2B2D35;
+  background: #B0AFAF;
 }
 
 #right2 {
-  background: #FF1D4D;
+  background: #3A0805;
 }
 
 #right3 {
-  background: #2B2D35;
+  background: #B0AFAF;
 }
 
 #right4 {
-  background: #FF1D4D;
+  background: #3A0805;
 }
 
 /* #right5 {
@@ -1161,7 +1161,7 @@ p.scroll span {
   font-weight: 500;
 }
 #countdown_dashboard .text-day h3 span.point {
-  color: #FF1D4D;
+  color: #3A0805;
   font-weight: 800;
 }
 #countdown_dashboard .text-day p {
@@ -1233,7 +1233,7 @@ p.scroll span {
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   border-radius: 0;
-  background: #FF1D4D;
+  background: #3A0805;
   color: #FFFFFF;
   height: 50px;
   padding: 1em 0;
@@ -1249,7 +1249,7 @@ p.scroll span {
 }
 #subscribe #notifyMe .form-group button.submit:hover {
   background: #F8F8F8;
-  color: #2B2D35;
+  color: #3A0805;
 }
 #subscribe .block-message {
   min-height: 30px;
@@ -1717,7 +1717,7 @@ ul.icons li a i.fa-facebook {
   margin-top: 40px;
 }
 #contact-form .form-control {
-  background: rgba(0, 0, 0, 0.4);
+ /* background: rgba(0, 0, 0, 0.4);*/
   border: none;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1728,7 +1728,7 @@ ul.icons li a i.fa-facebook {
   outline: medium none;
   height: 40px;
   width: 100%;
-  color: #FFFFFF;
+  color: #000000;
   -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
   -moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
   -ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
@@ -1740,16 +1740,16 @@ ul.icons li a i.fa-facebook {
   box-shadow: none;
 }
 #contact-form .form-control::-webkit-input-placeholder {
-  color: #F8F8F8 !important;
+  color: #000011 !important;
 }
 #contact-form .form-control::-moz-placeholder {
-  color: #F8F8F8 !important;
+  color: #000011 !important;
 }
 #contact-form .form-control:-moz-placeholder {
-  color: #F8F8F8 !important;
+  color: #000011 !important;
 }
 #contact-form .form-control:-ms-input-placeholder {
-  color: #F8F8F8 !important;
+  color: #000011 !important;
 }
 #contact-form textarea.form-control {
   min-height: 150px;
@@ -1761,18 +1761,19 @@ ul.icons li a i.fa-facebook {
   font-size: 1em;
   display: block;
   margin: 0 auto 0;
-  background: #F8F8F8;
-  color: #2B2D35;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  border-radius: 0;
+  background: #3A0805;
+  color: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
   font-weight: 700;
   width: 100%;
+  border: solid 1px #ffffff;
 }
 #contact-form button#valid-form:hover {
   background: #FFFFFF;
-  color: #2B2D35;
+  color: #3A0805;
 }
 
 #block-answer {
